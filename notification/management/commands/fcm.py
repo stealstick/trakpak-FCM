@@ -4,7 +4,6 @@ from push_notifications.gcm import send_message
 
 from django.contrib.auth.models import User
 from django.http import HttpResponse
-import certifi
 import requests
 
 from time import sleep
